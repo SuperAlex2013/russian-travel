@@ -6,8 +6,6 @@
   font-size: 18px;
   line-height: 163%;
   /* or 29px */
-
-
   color: #FFFFFF;
 }
 
@@ -17,22 +15,13 @@
 
 @media screen and (max-width: 1279px) {
   .place__paragraph {
-
-    font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
-    /* or 29px */
-    color: #FFFFFF;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
-    /* or 26px */
-    color: #FFFFFF;
   }
 }
 
@@ -40,7 +29,7 @@
   .place__paragraph {
     padding: 0 16px 26px 16px;
   }
-  .place__paragraph:nth-of-type(2n) {
+  .place__paragraph:last-child {
     padding: 0 16px 0 16px;
   }
 }
