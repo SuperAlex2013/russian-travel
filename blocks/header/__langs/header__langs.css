@@ -1,0 +1,12 @@
+.header__langs {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  /* Horizontally centers child elements */
+  align-items: end;
+  margin: 0 0 6px 0;
+  gap: 18px;
+  padding: 0;
+
+}

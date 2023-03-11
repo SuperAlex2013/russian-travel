@@ -1,0 +1,28 @@
+.page {
+  max-width: 1280px;
+  font-family: 'Inter', sans-serif;
+  background-color: #2A2C2F;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  align-self: center;
+  background-color: #2A2C2F;
+}
+
+@media screen and (min-width: 1281px) {
+  .page {
+    margin: 0 auto;
+  }
+}
+
+.page {
+  max-width: 1280px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
