@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествие по России</title>
-    <link rel="stylesheet" href="./fonts/inter.css">
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./pages/temp.css">
-    <link rel="stylesheet" href="./vendor/normalize.css">
-
   </head>
   <body class="root">
     <div class="page">
@@ -44,16 +40,16 @@
             интересные места, достойные вашего отпуска.
           </p>
           <ul class="intro__list">
-            <li class="intro__list-text">Часовых поясов <span
-                class="intro__list-text intro__list-text_thin">11</span></li>
+            <li class="intro__list-text">Часовых поясов
+              <span class="intro__list-span">11</span></li>
             <li class="intro__list-text">Объектов природного наследия ЮНЕСКО
-              <span class="intro__list-text intro__list-text_thin">12</span></li>
+              <span class="intro__list-span">12</span></li>
             <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО
-              <span class="intro__list-text intro__list-text_thin">16</span></li>
-            <li class="intro__list-text">Природных заповедников <span
-                class="intro__list-text intro__list-text_thin">105</span></li>
-            <li class="intro__list-text">Аэропортов <span
-                class="intro__list-text intro__list-text_thin">241</span></li>
+              <span class="intro__list-span">16</span></li>
+            <li class="intro__list-text">Природных заповедников
+              <span class="intro__list-span">105</span></li>
+            <li class="intro__list-text">Аэропортов
+              <span class="intro__list-span">241</span></li>
           </ul>
         </section>
         <section class="photo-grid">
@@ -84,11 +80,11 @@
             alt="вид на еграки">
         </section>
         <section class="places">
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link" href="park-kosa.ru">park-kosa.ru</a>
+              <span class="place__url-heading">url</span>
+              <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
             </div>
             <img class="place__image" src="./images/place-kosa.jpg" alt="курская
               коса на фото">
@@ -105,11 +101,11 @@
                 окуная в спокойствие природы
                 и запах стального, прохладного моря.</p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
                 Geographic</a>
@@ -130,11 +126,11 @@
                 сияние начинает сбываться с билетом
                 в Мурманск.</p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link"
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
             </div>
@@ -153,11 +149,11 @@
                 летают орлы, а на равнинах пасутся косули. И знаменитые манулы —
                 тоже обитатели Алтайского края.</p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
             </div>
             <img class="place__image" src="./images/place-winter-baikal.jpg"
@@ -174,12 +170,12 @@
                 скорость на льду. В марте 2019 года на фестивале «Байкальская
                 миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
             </div>
-          </div>
-          <div class="place">
+          </article>
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
-              <a class="place__link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+              <span class="place__url-heading">url</span>
+              <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
             </div>
             <img class="place__image" src="./images/place-karelia.jpg"
               alt="карелия
@@ -196,24 +192,24 @@
                 паре метров от земли помечены медвежьими когтями. Чтобы все
                 знали, кто тут хозяин.</p>
             </div>
-          </div>
+          </article>
         </section>
         <section>
-          <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <a class="cover" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
             <div class="cover__hover"></div>
-            <h1 class="cover__title">До Байкала «на собаках»</h1>
-            <h2 class="cover__subtitle">По мотивам учебной темы о Транссибе —
-              путешествие от столицы до Байкала на электричках.</h2>
+            <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+            <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе —
+              путешествие от столицы до Байкала на электричках.</h3>
           </a>
         </section>
         <footer class="footer">
-          <div class="footer__links">
-            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-          </div>
+          <nav class="footer__links">
+            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+          </nav>
           <p class="footer__copyright">© 2023. Alex INK</p>
 
         </footer>
