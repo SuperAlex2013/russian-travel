@@ -8,7 +8,7 @@
   background-position: center;
   cursor: pointer;
   display: flex;
-  margin: 66px auto 0 auto;
+  margin: 92px auto 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -24,12 +24,14 @@
 
 @media screen and (max-width: 1023px) {
   .cover {
+    margin: 90px auto 0 auto;
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
+    margin: 66px auto 0 auto;
     width: 100%;
     min-height: 200px;
   }
